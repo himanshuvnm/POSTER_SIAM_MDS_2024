@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "SIAM MDS 2024 Research Poster: Mathematical Machine Learning for Scientific Systems"
+message: "If you use this poster or repository, please cite it using the following metadata."
+type: dataset
+authors:
+  - family-names: Singh
+    given-names: Himanshu
+repository-code: "https://github.com/himanshuvnm/POSTER_SIAM_MDS_2024"
+url: "https://github.com/himanshuvnm/POSTER_SIAM_MDS_2024"
+date-released: 2024
+license: "CC-BY-4.0"
+keywords:
+  - scientific machine learning
+  - sparse learning
+  - neural operators
+  - mathematical AI
+  - SIAM MDS
