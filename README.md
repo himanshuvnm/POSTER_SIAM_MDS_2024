@@ -29,11 +29,14 @@ The work explores ideas at the intersection of:
 
 The poster highlights how **modern machine learning architectures can be combined with mathematical structure** to build interpretable and scalable learning systems for scientific data.
 
+## Abstract
+
+Prevalent methods of reduced order modelling, primarily Dynamic Mode Decomposition (DMD) encounters pitfalls when limited data is acquired. Hence, it’s been a key challenge faced by numerous practitioners in the wide variety of field such as fluid dynamics, epidemiology, neuroscience and to name a few. In the interest of overcoming this very challenge, we provide an exciting algorithm of executing Kernelized Extended DMD (KeDMD) which employs the Gaussian random vectors to recover the dominant Koopman modes for the standard fluid flow across cylinder experiment. The theoretical perspective of this algorithm raises two critical issues. These issues are observable replacement by Gaussian probability density function and data vector placement by Gaussian random vectors. In this talk, we study the KeDMD algorithm powered by Gaussian Random Vectors coupled with the Laplacian Kernel Function which is a common kernel choice in machine learning architectures of speech and text recognition. We
+also settle the much-needed theory of the aforementioned critical issues. Further, we study the reproducing kernel Hilbert space (RKHS) of the Laplacian Kernel and its interface on the Koopman operator. This deep mathematical analysis here demonstrates that the Koopman operator is closable on the RKHS of the Laplacian Kernel Function unlike that of Gaussian Radial Basis Function Kernel which leverages in making it a unique and novel choice of kernel function for such experimental situation.
+
 ---
 
 # Poster
-
-The full poster can be accessed below.
 
 **[Download Poster](https://github.com/himanshuvnm/POSTER_SIAM_MDS_2024/blob/main/SIAM_MDS_POSTER.pdf)**
 
