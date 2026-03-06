@@ -1,126 +1,167 @@
 <div align="center">
 
 # SIAM MDS 2024 Research Poster
-## Mathematical Machine Learning for Scientific Systems
+## Scientific Machine Learning and Data Science
 
-### Himanshu Singh
+### A Research Poster by **Himanshu Singh**
 
-Scientific Machine Learning • Sparse Learning • Neural Operators • Mathematical AI
+Scientific Machine Learning • Mathematical AI • Sparse Learning • Neural Operators
 
-[![Artifact](https://img.shields.io/badge/Artifact-Research%20Poster-2563eb?style=for-the-badge)]()
-[![Conference](https://img.shields.io/badge/Conference-SIAM%20MDS%202024-7c3aed?style=for-the-badge)]()
-[![Theme](https://img.shields.io/badge/Theme-Scientific%20Machine%20Learning-059669?style=for-the-badge)]()
-[![License](https://img.shields.io/badge/License-CC--BY--4.0-6b7280?style=for-the-badge)]()
-
-<br/>
-
-*A research poster exploring mathematically grounded machine learning for structured scientific systems.*
+[![Poster](https://img.shields.io/badge/type-research--poster-blue)]()
+[![Conference](https://img.shields.io/badge/conference-SIAM--MDS--2024-purple)]()
+[![Domain](https://img.shields.io/badge/domain-scientific--machine--learning-green)]()
+[![License](https://img.shields.io/badge/license-CC--BY--4.0-lightgrey)]()
 
 </div>
 
 ---
 
-## Overview
+# Overview
 
-This repository hosts a **research poster presented at the SIAM Conference on Mathematics of Data Science (SIAM MDS 2024)**.
+This repository hosts the **research poster presented at the SIAM Conference on Mathematics of Data Science (SIAM MDS 2024)**.
 
-The poster sits at the intersection of:
+The work explores ideas at the intersection of:
 
-- **scientific machine learning**
-- **mathematical foundations of AI**
-- **sparse and efficient representations**
-- **operator learning and dynamical systems**
+• **Scientific Machine Learning**  
+• **Mathematical Foundations of AI**  
+• **Sparse Learning and Efficient Representations**  
+• **Operator Learning and Dynamical Systems**
 
-It reflects a broader research direction:  
-how modern learning systems can be designed not only for predictive performance, but also for **structure, efficiency, and mathematical interpretability**.
+The poster highlights how **modern machine learning architectures can be combined with mathematical structure** to build interpretable and scalable learning systems for scientific data.
 
 ---
 
-## Poster
+# Poster
 
-<div align="center">
+**[Download poster](https://github.com/himanshuvnm/POSTER_SIAM_MDS_2024/blob/main/SIAM_MDS_POSTER.pdf)**
 
-### Full Poster
-[Download PDF](SIAM_MDS_POSTER.pdf)
 
-### Poster Preview
+---
+
+# Poster Preview
+
+<p align="center">
+
 <a href="SIAM_MDS_POSTER.pdf">
-  <img src="preview.png" width="900" alt="SIAM MDS 2024 Poster Preview">
+<img src="preview_SIAM_MDS_POSTER.png" width="900">
 </a>
 
-</div>
-
-> Click the preview above to open the full poster.
+</p>
 
 ---
 
-## Research Highlights
+# Motivation
 
-This poster is organized around several core ideas:
+Many modern scientific problems involve:
 
-### 1. Scientific Machine Learning
-Modern scientific problems often involve complex physical systems, high-dimensional states, and expensive simulations.  
-Machine learning offers a route toward **surrogate modeling**, **reduced computational cost**, and **scalable inference**.
+• high-dimensional dynamical systems  
+• structured physical data  
+• expensive numerical simulations  
 
-### 2. Sparse and Efficient Learning
-Sparse representations make it possible to learn models that are:
-- more interpretable
-- more efficient
-- better aligned with low-complexity structure in real scientific systems
+Traditional computational pipelines rely on **large-scale numerical solvers**, which can be computationally expensive.
 
-### 3. Operator Learning
-Neural operator methods, including Fourier Neural Operators and related architectures, offer a promising way to learn mappings between function spaces and PDE-governed systems.
+Scientific machine learning provides an alternative approach:
 
-### 4. Mathematical Structure in AI
-The poster emphasizes an approach to AI rooted in:
-- optimization
-- function spaces
-- sparsity
-- representation theory
-- principled model design
+> **Learning structure directly from data while preserving mathematical constraints.**
+
+This research investigates how **learning-based representations can complement classical mathematical modeling.**
 
 ---
 
-## Motivation
+# Key Ideas
 
-Many scientific and engineering systems are governed by:
+The poster highlights several themes in modern mathematical machine learning.
 
-- nonlinear dynamics
-- structured geometry
-- partial differential equations
-- expensive numerical solvers
+### Sparse Learning
 
-Traditional computational pipelines remain powerful, but can be prohibitively expensive at scale.
+Sparse representations allow models to identify the **most informative components of a system** while reducing computational complexity.
 
-This motivates a central question:
+This connects to:
 
-> **Can machine learning learn the structure of scientific systems in a way that is both scalable and mathematically meaningful?**
-
-This poster explores that question through the lens of modern scientific AI.
+• $\ell_0$ and $\ell_1$ sparsity  
+• interpretable model structures  
+• efficient learning pipelines
 
 ---
 
-## Themes
+### Scientific Machine Learning
 
-The work connects to the following broader themes in contemporary AI research:
+Scientific ML integrates **physics-based modeling with data-driven learning**.
 
-- **AI for scientific discovery**
-- **structured learning for physical systems**
-- **sparse and efficient neural computation**
-- **operator learning for PDEs**
-- **mathematical interpretability of learning systems**
+Applications include:
+
+• surrogate modeling  
+• reduced-order modeling  
+• accelerated simulation
+
+---
+
+### Operator Learning
+
+Recent neural operator architectures such as **Fourier Neural Operators (FNO)** enable learning mappings between infinite-dimensional function spaces.
+
+These approaches are promising for:
+
+• PDE learning  
+• dynamical systems modeling  
+• scalable scientific prediction
 
 ---
 
-## Why This Work Matters
+# Research Context
 
-The long-term significance of this direction lies in building machine learning systems that are not merely high-performing, but also:
+This work sits within the broader landscape of **AI for scientific discovery**, where machine learning methods are increasingly used to:
 
-- scientifically useful
-- computationally efficient
-- structurally grounded
-- extensible across domains
+• accelerate simulation  
+• discover physical relationships  
+• model complex dynamical systems
 
-This perspective is increasingly important for the future of **AI in science, engineering, and large-scale computational modeling**.
+The poster contributes to ongoing discussions on **mathematically grounded AI systems** for scientific domains.
 
 ---
+
+# Author
+
+**Himanshu Singh**
+
+Research interests include:
+
+• scientific machine learning  
+• sparse and efficient learning  
+• neural operators  
+• mechanistic interpretability  
+• mathematical foundations of AI
+
+---
+
+# Related Projects
+
+You may find these related repositories useful.
+
+### Mechanistic AI Interpretability
+
+Understanding reasoning circuits inside transformer models.
+
+https://github.com/himanshuvnm/Mechanistic_Artificial_Intelligence_Interpretability
+
+---
+
+### Learning Fourier Neural Operators
+
+Operator learning for PDE surrogate modeling.
+
+https://github.com/himanshuvnm/Learning_Fourier_Neural_Operator
+
+---
+
+### Sparse Neural Networks
+
+Learning sparse model structures via hard-threshold masking.
+
+https://github.com/himanshuvnm/Sparse_Neural_Network
+
+---
+
+# Citation
+
+If you use or reference this work, please cite the repository.
